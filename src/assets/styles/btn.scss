@@ -1,0 +1,24 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+
+.btn{
+background-color: var(--grey);
+color: var(--white);
+border-radius: .75rem;
+width: 15rem;
+height: 2.5rem;
+border: none;
+margin-bottom: 1rem;
+font-weight: 600;
+font-size: 1.2rem;
+&:hover{
+    background-color: var(--green);
+    color: var(--dark-grey);
+}
+}

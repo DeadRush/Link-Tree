@@ -1,0 +1,28 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+.container{
+background-color: var(--dark-grey);
+color: var(--white);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 25rem;
+height: 35rem;
+border-radius: 2rem;
+}
+
+h3{
+    font-weight: 700;
+    margin-top: -10px;
+    color: var(--green);
+}
+p{
+    margin-bottom: 2rem;
+}
